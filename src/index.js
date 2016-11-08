@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Rx from 'rx-lite';
+import App from './App.jsx';
+import MainStore from './store/MainStore';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const AppBus = new Rx.BehaviorSubject();
+ReactDOM.render(<App bus={AppBus} store={new MainStore(AppBus)} />, document.getElementById('root'));

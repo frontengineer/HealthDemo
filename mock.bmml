@@ -1,0 +1,50 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="687" measuredH="585" mockupW="658" mockupH="581">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="29" y="4" w="658" h="581" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//goodco.com/assement</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::LinkBar" x="77" y="90" w="-1" h="-1" measuredW="196" measuredH="19" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Patients%2C%20Protocols%2C%20Clinicians</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="39" y="88" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Canvas" x="30" y="75" w="657" h="65" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>472931</color>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="575" y="88" w="-1" h="-1" measuredW="55" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>John%20Doe</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="536" y="87" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+        <icon>StarIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Menu" x="384" y="140" w="303" h="-1" measuredW="150" measuredH="146" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Stephen%20Curry%09%09Sep%208%202016%202%3A00pm%0ARepetitive%20motion%20injury%20%3E%0A---%0ALebron%20James%09%09Aug%203%202016%201%3A45pm%0AHead%20swelling%20%3E%0A---%0AM%20Johnson%09%09Apr%2020%202015%203%3A00pm%0AIntermittent%20Rashes%20%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::RoundButton" x="639" y="85" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13576743</color>
+        <text>3</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

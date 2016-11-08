@@ -1,0 +1,154 @@
+@baseFontSize: 20;
+
+.font-size(@font-size: @baseFontSize) {
+	@rem: (@font-size / @baseFontSize);
+	font-size: @font-size * 1px;
+	font-size: ~"@{rem}rem";
+}
+
+html, body {
+  height: 100%;
+  overflow : hidden;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #eff0f0;
+}
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  background: #eff0f0;
+
+  .content-container {
+    padding: 0 20px;
+  }
+  .notification-center {
+
+    .font-size(14);
+    .noti-date {
+      color: #d0d2d2;
+    }
+    .noti-name {
+      color: #97a8bc;
+    }
+    .noti-message {
+      color: #97a8bc;
+      padding-right: 35px;
+    }
+    .noti-detail {
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      margin-top: -12px;
+
+    }
+    .event-pain {
+      color: #fd571d;
+    }
+    .center-heading {
+      background: #d9d9d9;
+    }
+    .fa-chevron-circle-down {
+      color: #1fb0f8;
+      cursor: pointer;
+    }
+    .fa-close {
+      color: #d0d2d2;
+      cursor: pointer;
+    }
+  }
+
+
+  header {
+    background-color: #2d4d6d
+  }
+  nav {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-list-item {
+    color: white;
+    display: inline-block;
+    padding: 25px;
+  }
+
+  .search {
+    background-color: #1d324a;
+  }
+
+  .notifications {
+    padding: inherit;
+    cursor: pointer;
+  }
+
+  .clinician-name {
+    margin-right: 10px
+  }
+
+  /* utility classes*/
+
+  .right {
+    float: right;
+  }
+
+  .left {
+    float: left;
+  }
+  .group {
+    position: relative;
+    padding: 10px 20px 10px 10px;
+  }
+  .group:before,
+  .group:after {
+      content: "";
+      display: table;
+  }
+  .group:after {
+      clear: both;
+      visibility: hidden;
+    	display: block;
+    	content: "";
+    	height: 0;
+  }
+  .clearDiv {
+      padding: 5px;
+  }
+  .clearDiv:after {
+      clear: both;
+      visibility: hidden;
+    	display: block;
+    	content: "";
+    	height: 0;
+      padding-right: 5px;
+  }
+  .badge {
+    display: inline-block;
+    width: 20px;
+    border-radius: 10px;
+    background: orange;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 18px;
+  }
+
+  .detail-title {
+    display: block;
+    width: 150px;
+  }
+  .hide-detail {
+    font-size: 0.6em;
+    color: 'light-blue';
+  }
+}
